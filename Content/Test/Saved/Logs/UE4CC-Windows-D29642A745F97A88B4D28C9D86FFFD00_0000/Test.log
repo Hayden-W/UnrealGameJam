@@ -1,0 +1,448 @@
+﻿Log file open, 07/19/17 13:21:29
+LogInit:Display: Running engine for game: Test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-654788269) SRandInit(-654788269).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066337
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.19-03.21.30:341][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.19-03.21.30:341][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.19-03.21.30:351][  0]LogInit: Computer: WWP-49CD79
+[2017.07.19-03.21.30:351][  0]LogInit: User: s171792
+[2017.07.19-03.21.30:351][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.19-03.21.30:351][  0]LogInit: High frequency timer resolution =3.328271 MHz
+[2017.07.19-03.21.30:351][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.07.19-03.21.30:351][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.19-03.21.30:351][  0]LogMemory: Process Physical Memory: 265.30 MB used, 265.30 MB peak
+[2017.07.19-03.21.30:351][  0]LogMemory: Process Virtual Memory: 266.42 MB used, 266.42 MB peak
+[2017.07.19-03.21.30:351][  0]LogMemory: Physical Memory: 6932.62 MB used,  25771.82 MB free, 32704.44 MB total
+[2017.07.19-03.21.30:351][  0]LogMemory: Virtual Memory: 633.75 MB used,  25771.82 MB free, 8388608.00 MB total
+[2017.07.19-03.21.30:428][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.07.19-03.21.31:005][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.19-03.21.31:023][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.07.19-03.21.31:023][  0]LogD3D11RHI:       4010/0/16096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.19-03.21.31:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.19-03.21.31:027][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.19-03.21.31:027][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.19-03.21.31:027][  0]LogWindows: EnumDisplayDevices:
+[2017.07.19-03.21.31:027][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.07.19-03.21.31:028][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.07.19-03.21.31:028][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.07.19-03.21.31:028][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.07.19-03.21.31:028][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.07.19-03.21.31:028][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.07.19-03.21.31:028][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.07.19-03.21.31:028][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.07.19-03.21.31:028][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.07.19-03.21.31:028][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.07.19-03.21.31:028][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.07.19-03.21.31:028][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.19-03.21.31:036][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.19-03.21.31:049][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.19-03.21.31:143][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/s171792/Desktop/New folder/Test/Intermediate/Shaders/WorkingDirectory/5176/).
+[2017.07.19-03.21.31:143][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s171792/AppData/Local/Temp/UnrealShaderWorkingDir/348077BA459B8B8EECBB539DE2394D30/'.
+[2017.07.19-03.21.31:143][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.19-03.21.32:037][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.19-03.21.32:090][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.19-03.21.32:139][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.19-03.21.32:189][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.19-03.21.32:239][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.19-03.21.32:289][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.19-03.21.32:338][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.19-03.21.32:388][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.19-03.21.32:429][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.19-03.21.32:479][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.19-03.21.32:526][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.19-03.21.32:575][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.19-03.21.32:623][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.19-03.21.32:670][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.19-03.21.32:717][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.19-03.21.32:809][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.19-03.21.32:809][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.19-03.21.32:842][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.19-03.21.32:925][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.19-03.21.32:953][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.19-03.21.32:998][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.19-03.21.33:044][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.19-03.21.33:090][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.19-03.21.33:135][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.19-03.21.33:135][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.19-03.21.33:483][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.19-03.21.33:523][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/s171792/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.19-03.21.33:523][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/s171792/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.19-03.21.33:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s171792/Desktop/New folder/Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.19-03.21.33:523][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.19-03.21.33:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s171792/Desktop/New folder/Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.19-03.21.33:523][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.19-03.21.33:538][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.19-03.21.33:550][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s171792/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.19-03.21.33:557][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.19-03.21.33:558][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.19-03.21.33:558][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.19-03.21.33:790][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.19-03.21.33:792][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.19-03.21.33:975][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.19-03.21.34:011][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.19-03.21.34:050][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.19-03.21.34:050][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.19-03.21.34:050][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.19-03.21.34:492][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: test, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2795628083
+[2017.07.19-03.21.34:533][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2017.07.19-03.21.34:580][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029563 seconds
+[2017.07.19-03.21.34:584][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.19-03.21.34:584][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.07.19-03.21.34:584][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.19-03.21.34:634][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.19-03.21.36:175][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.19-03.21.36:207][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.19-03.21.36:619][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.19-03.21.36:988][  0]SourceControl: Info Source control is disabled
+[2017.07.19-03.21.37:021][  0]SourceControl: Info Source control is disabled
+[2017.07.19-03.21.37:064][  0]SourceControl: Info Source control is disabled
+[2017.07.19-03.21.37:103][  0]SourceControl: Info Source control is disabled
+[2017.07.19-03.21.38:131][  0]LogEngine: Initializing Engine...
+[2017.07.19-03.21.38:131][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.19-03.21.38:339][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.19-03.21.38:349][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-03.21.38:376][  0]LogInit: FAudioDevice initialized.
+[2017.07.19-03.21.38:398][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/s171792/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.19-03.21.38:403][  0]LogInit: Texture streaming: Enabled
+[2017.07.19-03.21.38:481][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.19-03.21.38:559][  0]LogInit: Transaction tracking system initialized
+[2017.07.19-03.21.38:855][  0]BlueprintLog: New page: Editor Load
+[2017.07.19-03.21.39:610][  0]LocalizationService: Info Localization service is disabled
+[2017.07.19-03.21.40:176][  0]LogConsoleResponse:Display: 
+[2017.07.19-03.21.40:288][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.19-03.21.40:288][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.19-03.21.41:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171792/Desktop/New folder/Test/Content/' took 0.01s
+[2017.07.19-03.21.41:140][  0]SourceControl: Info Source control is disabled
+[2017.07.19-03.21.41:141][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s171792/Desktop/New folder/Test/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.19-03.21.41:141][  0]LightingResults: New page: Lighting Build
+[2017.07.19-03.21.41:175][  0]MapCheck: New page: Map Check
+[2017.07.19-03.21.41:175][  0]LightingResults: New page: Lighting Build
+[2017.07.19-03.21.41:423][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-03.21.41:443][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.19-03.21.41:443][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.19-03.21.41:479][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.767ms to complete.
+[2017.07.19-03.21.41:479][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.339
+[2017.07.19-03.21.41:630][  0]LogCollectionManager: Loaded 0 collections in 0.001213 seconds
+[2017.07.19-03.21.41:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171792/Desktop/New folder/Test/Saved/Collections/' took 0.01s
+[2017.07.19-03.21.41:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171792/Desktop/New folder/Test/Content/Developers/s171792/Collections/' took 0.01s
+[2017.07.19-03.21.41:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171792/Desktop/New folder/Test/Content/Collections/' took 0.01s
+[2017.07.19-03.21.41:705][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.19-03.21.41:712][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2245 classes and 453 folders.
+[2017.07.19-03.21.41:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.19-03.21.41:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.19-03.21.41:768][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.19-03.21.41:797][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.19-03.21.41:834][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.07.19-03.21.41:874][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.19-03.21.41:879][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.19-03.21.41:937][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.19-03.21.41:937][  0]LogLoad: (Engine Initialization) Total time: 13.65 seconds
+[2017.07.19-03.21.41:937][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.07.19-03.21.41:937][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.19-03.21.41:937][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.19-03.21.41:946][  0]LogOcInput: OculusInput pre-init called
+[2017.07.19-03.21.41:960][  0]LogAssetRegistry: Asset discovery search completed in 7.4460 seconds
+[2017.07.19-03.21.41:960][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.07.19-03.21.41:960][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2017.07.19-03.21.41:964][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.19-03.21.41:971][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.19-03.21.41:974][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.19-03.21.41:978][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.19-03.21.42:068][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-03.21.42:107][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:2).
+[2017.07.19-03.21.45:075][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-03.21.45:276][342]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.07.19-03.21.46:716][514]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.21.47:449][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-03.21.51:260][ 49]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.22.32:198][291]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-03.22.32:208][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Track_Brick.fbx)
+[2017.07.19-03.22.32:219][291]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.19-03.22.32:219][291]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.19-03.22.32:219][291]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.19-03.22.32:219][291]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.19-03.22.32:219][291]LogFbx: ItemName: Material, ItemCount : 1
+[2017.07.19-03.22.32:219][291]LogFbx: ItemName: Model, ItemCount : 1
+[2017.07.19-03.22.32:223][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Track_Brick.fbx
+[2017.07.19-03.22.32:228][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:041][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Track_Brick.fbx
+[2017.07.19-03.22.34:046][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:049][291]LogLinker: Can't find file '/Game/_GEO/lambert1'
+[2017.07.19-03.22.34:049][291]LogLinker: Can't find file '/Game/_GEO/lambert1'
+[2017.07.19-03.22.34:053][291]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.07.19-03.22.34:053][291]LogTemp:Display: Added material ShaderMap 0x0000000054EDE080 with Material 0x0000000048D52500 to ShaderMapsBeingCompiled
+[2017.07.19-03.22.34:079][291]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x0000000054EDE080
+[2017.07.19-03.22.34:080][291]LogFbx:Warning: Triangulating static mesh pCube3
+[2017.07.19-03.22.34:081][291]LogStaticMesh: Building static mesh Track_Brick...
+[2017.07.19-03.22.34:082][291]LogStaticMesh: Built static mesh [0.00s] /Game/_GEO/Track_Brick.Track_Brick
+[2017.07.19-03.22.34:090][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:106][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Track_End.fbx)
+[2017.07.19-03.22.34:119][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Track_End.fbx
+[2017.07.19-03.22.34:127][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:130][291]LogFbx:Warning: Triangulating static mesh pCylinder9
+[2017.07.19-03.22.34:139][291]LogStaticMesh: Building static mesh Track_End...
+[2017.07.19-03.22.34:145][291]LogStaticMesh: Built static mesh [0.01s] /Game/_GEO/Track_End.Track_End
+[2017.07.19-03.22.34:151][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:155][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Track_Middle.fbx)
+[2017.07.19-03.22.34:165][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Track_Middle.fbx
+[2017.07.19-03.22.34:170][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:172][291]LogFbx:Warning: Triangulating static mesh pCylinder8
+[2017.07.19-03.22.34:176][291]LogStaticMesh: Building static mesh Track_Middle...
+[2017.07.19-03.22.34:179][291]LogStaticMesh: Built static mesh [0.00s] /Game/_GEO/Track_Middle.Track_Middle
+[2017.07.19-03.22.34:185][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:189][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Track_Start.fbx)
+[2017.07.19-03.22.34:197][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Track_Start.fbx
+[2017.07.19-03.22.34:202][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:204][291]LogFbx:Warning: Triangulating static mesh pCylinder7
+[2017.07.19-03.22.34:213][291]LogStaticMesh: Building static mesh Track_Start...
+[2017.07.19-03.22.34:224][291]LogStaticMesh: Built static mesh [0.01s] /Game/_GEO/Track_Start.Track_Start
+[2017.07.19-03.22.34:231][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:236][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Brick.fbx)
+[2017.07.19-03.22.34:243][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Brick.fbx
+[2017.07.19-03.22.34:248][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:250][291]LogFbx:Warning: Triangulating static mesh pCube2
+[2017.07.19-03.22.34:251][291]LogStaticMesh: Building static mesh Brick...
+[2017.07.19-03.22.34:253][291]LogStaticMesh: Built static mesh [0.00s] /Game/_GEO/Brick.Brick
+[2017.07.19-03.22.34:260][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:264][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Character.fbx)
+[2017.07.19-03.22.34:274][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Character.fbx
+[2017.07.19-03.22.34:280][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:282][291]LogFbx:Warning: Triangulating static mesh pSphere1
+[2017.07.19-03.22.34:341][291]LogStaticMesh: Building static mesh Character...
+[2017.07.19-03.22.34:355][291]LogStaticMesh: Built static mesh [0.01s] /Game/_GEO/Character.Character
+[2017.07.19-03.22.34:365][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:369][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Node.fbx)
+[2017.07.19-03.22.34:381][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Node.fbx
+[2017.07.19-03.22.34:387][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:389][291]LogFbx:Warning: Triangulating static mesh pCylinder2
+[2017.07.19-03.22.34:393][291]LogStaticMesh: Building static mesh Node...
+[2017.07.19-03.22.34:397][291]LogStaticMesh: Built static mesh [0.00s] /Game/_GEO/Node.Node
+[2017.07.19-03.22.34:403][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.34:407][291]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s171792\Desktop\_GEO\Spikes.fbx)
+[2017.07.19-03.22.34:416][291]LogFbx: Loading FBX Scene from C:\Users\s171792\Desktop\_GEO\Spikes.fbx
+[2017.07.19-03.22.34:422][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.19-03.22.34:425][291]LogFbx:Warning: Triangulating static mesh pCone5
+[2017.07.19-03.22.34:426][291]LogStaticMesh: Building static mesh Spikes...
+[2017.07.19-03.22.34:434][291]LogStaticMesh: Built static mesh [0.01s] /Game/_GEO/Spikes.Spikes
+[2017.07.19-03.22.34:441][291]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.19-03.22.35:478][307]LogTemp:Display: Finished compile of shader map 0x0000000054EDE080
+[2017.07.19-03.22.35:478][307]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x0000000054EDE080, marking material lambert1 as finished
+[2017.07.19-03.22.35:478][307]LogTemp:Display: Marking material as finished 0x0000000048D52500
+[2017.07.19-03.22.37:246][514]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.22.38:336][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-03.22.41:059][947]Cmd: DELETE
+[2017.07.19-03.22.41:059][947]Cmd: ACTOR DELETE
+[2017.07.19-03.22.41:061][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-03.22.41:062][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-03.22.41:062][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-03.22.41:062][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-03.22.41:071][947]LogEditorActor: Deleted 4 Actors (0.012 secs)
+[2017.07.19-03.22.41:629][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-03.22.41:746][ 22]Cmd: DELETE
+[2017.07.19-03.22.41:746][ 22]Cmd: ACTOR DELETE
+[2017.07.19-03.22.41:746][ 22]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-03.22.41:753][ 22]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.07.19-03.22.43:302][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.07.19-03.22.43:477][223]Cmd: DELETE
+[2017.07.19-03.22.43:477][223]Cmd: ACTOR DELETE
+[2017.07.19-03.22.43:478][223]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-03.22.43:485][223]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.07.19-03.22.44:033][289]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.07.19-03.22.44:260][312]Cmd: DELETE
+[2017.07.19-03.22.44:260][312]Cmd: ACTOR DELETE
+[2017.07.19-03.22.44:260][312]LogEditorActor: Deleted Actor: PlayerStart
+[2017.07.19-03.22.44:267][312]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.07.19-03.22.46:056][527]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.07.19-03.22.46:256][547]Cmd: DELETE
+[2017.07.19-03.22.46:256][547]Cmd: ACTOR DELETE
+[2017.07.19-03.22.46:257][547]LogEditorActor: Deleted Actor: SkyLight
+[2017.07.19-03.22.46:265][547]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.19-03.22.47:515][666]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.07.19-03.22.47:858][703]Cmd: DELETE
+[2017.07.19-03.22.47:858][703]Cmd: ACTOR DELETE
+[2017.07.19-03.22.47:858][703]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.07.19-03.22.47:865][703]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.07.19-03.22.48:512][781]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2017.07.19-03.22.48:675][797]Cmd: DELETE
+[2017.07.19-03.22.48:675][797]Cmd: ACTOR DELETE
+[2017.07.19-03.22.48:676][797]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.07.19-03.22.48:682][797]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.07.19-03.22.49:207][860]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2017.07.19-03.22.49:394][877]Cmd: DELETE
+[2017.07.19-03.22.49:394][877]Cmd: ACTOR DELETE
+[2017.07.19-03.22.49:394][877]LogEditorActor: Deleted Actor: AmbientSound
+[2017.07.19-03.22.49:403][877]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.19-03.22.49:895][936]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.07.19-03.22.50:038][949]Cmd: DELETE
+[2017.07.19-03.22.50:038][949]Cmd: ACTOR DELETE
+[2017.07.19-03.22.50:038][949]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.07.19-03.22.50:046][949]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.19-03.22.50:525][  6]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.07.19-03.22.50:771][ 31]Cmd: DELETE
+[2017.07.19-03.22.50:771][ 31]Cmd: ACTOR DELETE
+[2017.07.19-03.22.52:730][ 31]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.07.19-03.22.52:736][ 31]LogEditorActor: Deleted 1 Actors (1.965 secs)
+[2017.07.19-03.22.54:050][189]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.22.55:480][357]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.22.57:244][546]LogActorFactory: Actor Factory created Cube
+[2017.07.19-03.22.57:938][628]LogActorFactory: Actor Factory created Cube
+[2017.07.19-03.23.12:546][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.23.18:123][954]LogActorFactory: Actor Factory created Brick
+[2017.07.19-03.23.18:123][954]LogActorFactory: Actor Factory created Character
+[2017.07.19-03.23.18:123][954]LogActorFactory: Actor Factory created Node
+[2017.07.19-03.23.18:124][954]LogActorFactory: Actor Factory created Spikes
+[2017.07.19-03.23.18:124][954]LogActorFactory: Actor Factory created Track_Brick
+[2017.07.19-03.23.18:124][954]LogActorFactory: Actor Factory created Track_End
+[2017.07.19-03.23.18:125][954]LogActorFactory: Actor Factory created Track_Middle
+[2017.07.19-03.23.18:125][954]LogActorFactory: Actor Factory created Track_Start
+[2017.07.19-03.23.19:072][ 67]LogActorFactory: Actor Factory created Brick
+[2017.07.19-03.23.19:101][ 67]LogActorFactory: Actor Factory created Character
+[2017.07.19-03.23.19:127][ 67]LogActorFactory: Actor Factory created Node
+[2017.07.19-03.23.19:154][ 67]LogActorFactory: Actor Factory created Spikes
+[2017.07.19-03.23.19:183][ 67]LogActorFactory: Actor Factory created Track_Brick
+[2017.07.19-03.23.19:212][ 67]LogActorFactory: Actor Factory created Track_End
+[2017.07.19-03.23.19:241][ 67]LogActorFactory: Actor Factory created Track_Middle
+[2017.07.19-03.23.19:269][ 67]LogActorFactory: Actor Factory created Track_Start
+[2017.07.19-03.23.22:660][439]Cmd: TRANSACTION UNDO
+[2017.07.19-03.23.22:660][439]LogEditorTransaction: Undo Create Actors
+[2017.07.19-03.23.22:685][439]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-03.23.24:751][578]LogActorFactory: Actor Factory created Brick
+[2017.07.19-03.23.25:391][634]LogActorFactory: Actor Factory created Brick
+[2017.07.19-03.23.29:125][ 23]LogActorFactory: Actor Factory created Spikes
+[2017.07.19-03.23.29:800][103]LogActorFactory: Actor Factory created Spikes
+[2017.07.19-03.23.45:721][559]LogActorFactory: Actor Factory created Track_Start
+[2017.07.19-03.23.46:176][613]LogActorFactory: Actor Factory created Track_Start
+[2017.07.19-03.23.53:761][463]LogActorFactory: Actor Factory created Track_Middle
+[2017.07.19-03.23.54:374][536]LogActorFactory: Actor Factory created Track_Middle
+[2017.07.19-03.23.58:148][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Track_Start)
+[2017.07.19-03.24.01:987][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Track_Middle)
+[2017.07.19-03.24.03:657][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.07.19-03.24.06:356][850]LogActorFactory: Actor Factory created Track_End
+[2017.07.19-03.24.07:102][939]LogActorFactory: Actor Factory created Track_End
+[2017.07.19-03.24.17:484][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.24.21:350][495]LogActorFactory: Actor Factory created Track_Brick
+[2017.07.19-03.24.21:896][560]LogActorFactory: Actor Factory created Track_Brick
+[2017.07.19-03.24.31:337][670]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.25.39:762][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.07.19-03.26.11:221][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.26.12:028][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Brick)
+[2017.07.19-03.26.16:214][522]Cmd: TRANSACTION UNDO
+[2017.07.19-03.26.16:214][522]LogEditorTransaction: Undo Move Actors
+[2017.07.19-03.26.27:937][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Brick)
+[2017.07.19-03.26.31:980][340]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.26.33:396][499]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-03.26.33:405][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.26.33:405][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-03.26.33:407][499]PIE: New page: PIE session: Minimal_Default (Jul 19, 2017, 11:26:33 PM)
+[2017.07.19-03.26.33:407][499]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-03.26.33:409][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001961s)
+[2017.07.19-03.26.33:410][499]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-03.26.33:410][499]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.07.19-03.26.33:410][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002916s)
+[2017.07.19-03.26.33:421][499]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-03.26.33:430][499]LogInit: FAudioDevice initialized.
+[2017.07.19-03.26.33:473][499]LogLoad: Game class is 'GameModeBase'
+[2017.07.19-03.26.33:475][499]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.19-13.26.33
+[2017.07.19-03.26.33:475][499]LogWorld: Bringing up level for play took: 0.000891
+[2017.07.19-03.26.33:515][499]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.07.19-03.26.33:516][499]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.126
+[2017.07.19-03.26.33:516][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.26.37:355][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.26.37:400][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.26.37:412][951]LogActorComponent: ReregisterComponent: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2017.07.19-03.27.32:705][269]LogSlate: Took 0.003800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.19-03.27.40:620][183]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-03.27.40:628][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.27.40:628][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-03.27.40:628][183]PIE: New page: PIE session: Minimal_Default (Jul 19, 2017, 11:27:40 PM)
+[2017.07.19-03.27.40:629][183]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-03.27.40:631][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001996s)
+[2017.07.19-03.27.40:631][183]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-03.27.40:631][183]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.07.19-03.27.40:631][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002822s)
+[2017.07.19-03.27.40:664][183]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-03.27.40:671][183]LogInit: FAudioDevice initialized.
+[2017.07.19-03.27.40:700][183]LogLoad: Game class is 'GameModeBase'
+[2017.07.19-03.27.40:702][183]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.19-13.27.40
+[2017.07.19-03.27.40:703][183]LogWorld: Bringing up level for play took: 0.000950
+[2017.07.19-03.27.40:703][183]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.696
+[2017.07.19-03.27.40:704][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.27.42:819][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.27.42:920][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-03.27.42:931][424]LogActorComponent: ReregisterComponent: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2017.07.19-03.27.43:921][535]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.27.44:057][543]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.07.19-03.27.45:199][676]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-03.27.49:013][108]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-03.27.51:517][376]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.088 s
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: 
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: Ensure condition failed: ListenerTransformCopy.IsValid() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\AudioDevice.cpp] [Line: 2143]
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: Invalid listener transform provided to AudioDevice
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: Stack: 
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D04495E6
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D01F9B82
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D020B666
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000CCF91B6B
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CABE782A
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CABE4763
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CA87197D
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000CDCAA74E
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CA7C9315
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CA7C72F9
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CAFD2086
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor.exe!0x000000003F0DDEE3
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor.exe!0x000000003F0CEB40
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor.exe!0x000000003F0CEBBA
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor.exe!0x000000003F0E0A29
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: UE4Editor.exe!0x000000003F0E22B6
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: kernel32.dll!0x00000000779A59CD
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: ntdll.dll!0x0000000077BDA561
+[2017.07.19-03.27.51:517][376]LogOutputDevice:Error: 
+[2017.07.19-03.27.51:523][376]LogStats:                SubmitErrorReport -  0.000 s
